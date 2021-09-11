@@ -4,3 +4,6 @@ Atualmente só as páginas de login do cliente e do usuário foram criadas. Func
 Lembrando que trata-se de um projeto básico, de um iniciante em php que só viu o básico.
 Este projeto é o primeiro antes de eu começar a estudar programação orientada a objeto. Parte do sistema de login foi construida com base em alguns tutoriais, pois vi que somente com o que eu sabia, o sistema apresentava falhas.
 O banco de dados foi criado totalmente por mim, e os dados de cpf, nome, endereço... etc., são totalmente fictífios e criados por meio de geradires automáticos na internet.
+
+
+Aceito dicas, sugestões, pois meu objetido é treinar e aprender.
