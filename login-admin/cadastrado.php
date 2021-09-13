@@ -21,7 +21,6 @@
     $row=mysqli_affected_rows($conexao);
 
     if($row==1){
-
         $escolhaPlano=("insert into assina (data, cpf_cliente, id_plano) values ('$ano-$mes-$dia','$cpf','$plano')");
         $res2=mysqli_query($conexao, $escolhaPlano);
         $row2=mysqli_affected_rows($conexao);
