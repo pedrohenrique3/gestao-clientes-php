@@ -7,9 +7,21 @@ include ('verifica_login_admin.php');
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/menu-admin.css">
     <title>Cadastro de clientes</title>
 </head>
 <body>
+<nav id="menu-adm">
+        <ul>
+            <li><a href="painel-admin.php">HOME</a></li>
+            <li><a href="listagem.php">LISTAR CLIENTES</a></li>
+            <li><a href="pesquisa.php">PESQUISAR CLIENTE</a></li>
+            <li><a href="cadastro.php">CADASTRAR CLIENTE</a></li>
+            <li><a href="exclusao.php">EXCLUIR CLIENTE</a></li>
+            
+            <li><a href="logout-admin.php">SAIR</a></li>
+        </ul>
+</nav><br/><br/>
     <h1>Cadastro de clientes</h1>
     <form action="cadastrado.php" method="post">
         Nome: <input type="text" name="nome" placeholder="Digite seu nome completo" maxlength="40" size="30"/>

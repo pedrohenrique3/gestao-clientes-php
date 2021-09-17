@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+nav#menu-adm{
+    display: block;
+}
+nav#menu-adm ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+nav#menu-adm li{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    transition: background-color 0.8s;
+    transition: border-radius 1s;
+}
+nav#menu-adm li:hover{
+    background-color: #606060;
+    border-radius: 15px;
+}
+nav#menu-adm a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu-adm a:hover{
+    color: #ffffff;
+}
